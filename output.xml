@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.2 on darwin)" generated="2024-04-10T11:26:41.065001" rpa="true" schemaversion="5">
+<suite id="s1" name="Product" source="/Users/m143/Documents/my-rsb-robot/product.robot">
+<test id="s1-t1" name="Produce traffic data work items" line="17">
+<kw name="Download traffic data">
+<kw name="RPA.HTTP.Download">
+<msg time="2024-04-10T11:26:41.077878" level="FAIL">No keyword with name 'RPA.HTTP.Download' found.</msg>
+<arg>${TRAFFIC_DATA_URL}</arg>
+<arg>${OUTPUT_DIR}${/}traffic.json</arg>
+<arg>overwrite=True</arg>
+<status status="FAIL" start="2024-04-10T11:26:41.077865" elapsed="0.000035">No keyword with name 'RPA.HTTP.Download' found.</status>
+</kw>
+<status status="FAIL" start="2024-04-10T11:26:41.077301" elapsed="0.000668">No keyword with name 'RPA.HTTP.Download' found.</status>
+</kw>
+<kw name="Load traffic data as table">
+<var>${traffic_data}</var>
+<status status="NOT RUN" start="2024-04-10T11:26:41.078058" elapsed="0.000081"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<arg>Traffic data loaded successfully: ${traffic_data}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" start="2024-04-10T11:26:41.078198" elapsed="0.000009"/>
+</kw>
+<kw name="Clean up resources" type="TEARDOWN">
+<kw name="RPA.FileSystem.Remove Files">
+<msg time="2024-04-10T11:26:41.078808" level="FAIL">No keyword with name 'RPA.FileSystem.Remove Files' found.</msg>
+<arg>${OUTPUT_DIR}${/}traffic.json</arg>
+<status status="FAIL" start="2024-04-10T11:26:41.078798" elapsed="0.000023">No keyword with name 'RPA.FileSystem.Remove Files' found.</status>
+</kw>
+<status status="FAIL" start="2024-04-10T11:26:41.078305" elapsed="0.000557">No keyword with name 'RPA.FileSystem.Remove Files' found.</status>
+</kw>
+<status status="FAIL" start="2024-04-10T11:26:41.077084" elapsed="0.001808">No keyword with name 'RPA.HTTP.Download' found.
+
+Also teardown failed:
+No keyword with name 'RPA.FileSystem.Remove Files' found.</status>
+</test>
+<doc>Inhuman Insurance, Inc. Artificial Intelligence System robot.
+Produces traffic data work items.</doc>
+<status status="FAIL" start="2024-04-10T11:26:41.065529" elapsed="0.013533"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tasks</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Product">Product</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2024-04-10T11:26:41.075445" level="ERROR">Error in file '/Users/m143/Documents/my-rsb-robot/product.robot' on line 5: Importing library 'RPA.HTTP' failed: ModuleNotFoundError: No module named 'RPA'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  /Library/Frameworks/Python.framework/Versions/3.12/bin
+  /Library/Frameworks/Python.framework/Versions/3.12/lib/python312.zip
+  /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12
+  /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload
+  /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages</msg>
+<msg time="2024-04-10T11:26:41.075931" level="ERROR">Error in file '/Users/m143/Documents/my-rsb-robot/product.robot' on line 6: Importing library 'RPA.JSON' failed: ModuleNotFoundError: No module named 'RPA'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  /Library/Frameworks/Python.framework/Versions/3.12/bin
+  /Library/Frameworks/Python.framework/Versions/3.12/lib/python312.zip
+  /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12
+  /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload
+  /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages</msg>
+<msg time="2024-04-10T11:26:41.076374" level="ERROR">Error in file '/Users/m143/Documents/my-rsb-robot/product.robot' on line 7: Importing library 'RPA.Tables' failed: ModuleNotFoundError: No module named 'RPA'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  /Library/Frameworks/Python.framework/Versions/3.12/bin
+  /Library/Frameworks/Python.framework/Versions/3.12/lib/python312.zip
+  /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12
+  /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload
+  /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages</msg>
+<msg time="2024-04-10T11:26:41.076808" level="ERROR">Error in file '/Users/m143/Documents/my-rsb-robot/product.robot' on line 8: Importing library 'RPA.FileSystem' failed: ModuleNotFoundError: No module named 'RPA'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  /Library/Frameworks/Python.framework/Versions/3.12/bin
+  /Library/Frameworks/Python.framework/Versions/3.12/lib/python312.zip
+  /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12
+  /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload
+  /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages</msg>
+</errors>
+</robot>
