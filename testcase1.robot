@@ -2,6 +2,12 @@
 Library     RPA.Browser.Selenium
 
 
+*** Variables ***
+${LOGIN_URL}    https://demo.nopcommerce.com/login
+${USERNAME}     thesonpham120499@gmail.com
+${PASSWORD}     @Sonpham1204
+
+
 *** Tasks ***
 LoginTest
     Open Browser    https://demo.nopcommerce.com/login    browser=Chrome
