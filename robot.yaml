@@ -3,7 +3,7 @@
 
 tasks:
   Run Task:
-    shell: python -m robot --report NONE --outputdir output --logtitle "Task log" tasks.py
+    shell: python -m robot --report NONE --outputdir output --logtitle "Task log" getlyric.robot
 
 environmentConfigs:
   - environment_windows_amd64_freeze.yaml

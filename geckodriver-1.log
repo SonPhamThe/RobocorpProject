@@ -1,0 +1,34 @@
+1712911088037	geckodriver	INFO	Listening on 127.0.0.1:54632
+1712911088578	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/Use ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/f3/99pmtrvd02n2yl3mmxb7nhkm0000gn/T/rust_mozprofileT13e2y"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712911090929	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1712911091872	Marionette	INFO	Listening on port 54667
+Read port: 54667
+WebDriver BiDi listening on ws://127.0.0.1:54633
+1712911092063	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54633/devtools/browser/7a7c9800-e1d1-4168-8aa4-c8a9f69a9376
+1712911104708	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/9ZfChOpXbHBNFJKz_5-oXUVoR1FZPZjvM4uQ47JL5hk.js line 2 > eval line 7177 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1712911121073	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/L0LConaBzCc577BZGNgzP3bg87fF5vhB9-a07M4Tw6o.js line 2 > eval line 2733 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1712911136182	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-PSSTD0FYS1&l=dataLayer&cx=c, line 525: Script terminated by timeout at:
+aa.mh@https://www.googletagmanager.com/gtag/js?id=G-PSSTD0FYS1&l=dataLayer&cx=c:525:89
+get@https://www.googletagmanager.com/gtag/js?id=G-PSSTD0FYS1&l=dataLayer&cx=c:523:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-PSSTD0FYS1&l=dataLayer&cx=c:523:87
+aa.tk/c/<@https://www.googletagmanager.com/gtag/js?id=G-PSSTD0FYS1&l=dataLayer&cx=c:523:412
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://imasdk.googleapis.com/js/core/bridge3.633.0_en.html#goog_102577112, line 427: Script terminated by timeout at:
+tz@https://imasdk.googleapis.com/js/core/bridge3.633.0_en.html#goog_102577112:427:308
+xz/this.K@https://imasdk.googleapis.com/js/core/bridge3.633.0_en.html#goog_102577112:424:92
+
+JavaScript warning: https://ads.pubmatic.com/AdServer/js/user_sync.html?p=159196&userIdMacro=PM_UID&gdpr=0&gdpr_consent=&predirect=https%3A%2F%2Flive.primis.tech%2Flive%2FliveCS.php%3Fsource%3Dexternal%26advId%3D91%26advUuid%3DPM_UID, line 1: Script terminated by timeout at:
+F@https://ads.pubmatic.com/AdServer/js/user_sync.html?p=159196&userIdMacro=PM_UID&gdpr=0&gdpr_consent=&predirect=https%3A%2F%2Flive.primis.tech%2Flive%2FliveCS.php%3Fsource%3Dexternal%26advId%3D91%26advUuid%3DPM_UID:1:9698
+q@https://ads.pubmatic.com/AdServer/js/user_sync.html?p=159196&userIdMacro=PM_UID&gdpr=0&gdpr_consent=&predirect=https%3A%2F%2Flive.primis.tech%2Flive%2FliveCS.php%3Fsource%3Dexternal%26advId%3D91%26advUuid%3DPM_UID:1:9870
+J@https://ads.pubmatic.com/AdServer/js/user_sync.html?p=159196&userIdMacro=PM_UID&gdpr=0&gdpr_consent=&predirect=https%3A%2F%2Flive.primis.tech%2Flive%2FliveCS.php%3Fsource%3Dexternal%26advId%3D91%26advUuid%3DPM_UID:1:14168
+x@https://ads.pubmatic.com/AdServer/js/user_sync.html?p=159196&userIdMacro=PM_UID&gdpr=0&gdpr_consent=&predirect=https%3A%2F%2Flive.primis.tech%2Flive%2FliveCS.php%3Fsource%3Dexternal%26advId%3D91%26advUuid%3DPM_UID:1:11098
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
